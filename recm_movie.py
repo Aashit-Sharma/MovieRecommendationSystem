@@ -3,7 +3,7 @@ from lightfm.datasets import fetch_movielens
 from lightfm import LightFM
 
 
-data = fetch_movielens(min_rating=4.0)
+data = fetch_movielens(min_rating=5.0)
 
 #print training and testing data
 print( "Training Data:")
